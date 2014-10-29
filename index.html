@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,47 +7,47 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 	<body>
-		<h2>you</h2>
-		<table border="1" cellspacing="0" cellpadding="0">
-			<thead>
-				<tr>
-					<td>Stat</td>
-					<td>Value</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Level</td>
-					<td>1</td>
-				</tr>
-				<tr>
-					<td>HP</td>
-					<td>100</td>
-				</tr>
-				<tr>
-					<td>MP</td>
-					<td>100</td>
-				</tr>
-				<tr>
-					<td>ATK</td>
-					<td>1</td>
-				</tr>
-				<tr>
-					<td>Armor</td>
-					<td>100</td>
-				</tr>
-			</tbody>
-		</table>
+		<section id="player">
+			<h2>you</h2>
+			<table border="1" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<td>Stat</td>
+						<td>Value</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="plr-level">
+						<td>Level</td>
+						<td></td>
+					</tr>
+					<tr class="plr-life">
+						<td>HP</td>
+						<td></td>
+					</tr>
+					<tr class="plr-mana">
+						<td>MP</td>
+						<td></td>
+					</tr>
+					<tr class="plr-attack">
+						<td>ATK</td>
+						<td></td>
+					</tr>
+					<tr class="plr-defense">
+						<td>Armor</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 		<h2>mob</h2>
 		<table>
 		</table>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
-		<!-- // <script src="js/main.js"></script> -->
-		<script data-main="js/main" src="js/vendor/require.js"></script>
+    <script src="js/vendor/jquery-1.11.0.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/vendor/backbone-min.js"></script>
+    <script src="js/main.js"></script>
 	</body>
 </html>
