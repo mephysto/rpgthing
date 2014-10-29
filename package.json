@@ -27,6 +27,6 @@
     "http-server": "^0.6.1"
   },
   "scripts": {
-    "start": "http-server -p 666"
+    "start": "http-server -p 9000"
   }
 }
